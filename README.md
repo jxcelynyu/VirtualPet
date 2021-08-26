@@ -1,25 +1,30 @@
-![](Penguin.JPG)   
-Virtual Pet
-=============
+public void setup(){
+  background(176,207,235);
+  fill(219,208,1);
+  ellipse(100,100,100,100);
+  fill(30,235,0);
+  rect(-50,630,900,900);
+  size(800,800);
+}
 
-In this project you will write a program using [Processing](https://processing.org) that displays any animal of your choosing. You can use almost any drawing functions that you would like, you can find the full list at the [Processing Reference](https://processing.org/reference) (See note below).  Your program will need to be divided into at least two functions `void setup()` and `void draw()`. You may find slides of the [apjavaProcessing slide presentation](https://docs.google.com/presentation/d/1sqbareaFmF9fMcp0XOl3hRO6hAlrU5WIaj4V-Kd3eDI/edit?usp=sharing) helpful. 
-
-When you are happy with the appearance of your virtual pet, you will post your finished program on a website. You can get a free [GitHub](https://github.com) account for your website. Instructions on how to put your program on a GitHub website are on slides 73-86 of the [apjavaProcessing slide presentation](https://docs.google.com/presentation/d/1sqbareaFmF9fMcp0XOl3hRO6hAlrU5WIaj4V-Kd3eDI/edit?usp=sharing). Submit the link to your website on google classroom.
-
-In the next assignment we will [use an Arduino to interact with your virtual pet](https://github.com/APCSLowell/LightSensorController#use-an-adafruit-circuit-playground-as-an-input-device-in-a-processing-program). As you work on your design, think about an element of the design that could be changed with a single variable.
-
-Note: The following Processing functions do not work on the web:
-----------------------------------------------------------
-+ `circle()`
-+ `square()`
-+ `clear()`
-+ `delay()`
-+ `System.out.println()`
-+ `System.out.print()`
-+ Using `CHORD` or `PIE` modes with `arc()`
-+ Using an image as an argument in `background()`
-
-Samples of Student Work
------------------------
-None yet! 
-
+public void draw(){
+  fill(230,117,235);
+  triangle(240,480,260,630,380,580);
+  triangle(560,480,540,630,420,580);
+  fill(235,166,226);
+  ellipse(400,350,520,500);
+  fill(230,117,235);
+  triangle(280,150,270,250,420,250);
+  triangle(520,150,530,250,380,250);
+  fill(235,166,226);
+  ellipse(400,350,350,300);
+  fill(230,117,235);
+  ellipse(400,400,170,120);
+  fill(235,166,226);
+  fill(0,0,0);
+  ellipse(330,300,20,20);
+  ellipse(470,300,20,20);
+  fill(232,190,207);
+  ellipse(370,400,20,20);
+  ellipse(430,400,20,20);
+}
