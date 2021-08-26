@@ -1,10 +1,10 @@
 public void setup(){
+  size(800,800);
   background(176,207,235);
   fill(219,208,1);
   ellipse(100,100,100,100);
   fill(30,235,0);
   rect(-50,630,900,900);
-  size(800,800);
 }
 
 public void draw(){
